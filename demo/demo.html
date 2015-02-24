@@ -7,30 +7,11 @@
   <link rel="stylesheet" href="../responsiveslides.css">
   <link rel="stylesheet" href="demo.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="../responsiveslides.min.js"></script>
+  <link rel="stylesheet" href="../animate.css">
+  <script src="../responsiveslides.js"></script>
   <script>
     // You can also use "$(window).load(function() {"
     $(function () {
-
-      // Slideshow 1
-      $("#slider1").responsiveSlides({
-        maxwidth: 800,
-        speed: 800
-      });
-
-      // Slideshow 2
-      $("#slider2").responsiveSlides({
-        auto: false,
-        pager: true,
-        speed: 300,
-        maxwidth: 540
-      });
-
-      // Slideshow 3
-      $("#slider3").responsiveSlides({
-        manualControls: '#slider3-pager',
-        maxwidth: 540
-      });
 
       // Slideshow 4
       $("#slider4").responsiveSlides({
@@ -57,46 +38,12 @@
 
 
 
-    <!-- Slideshow 1 -->
-    <ul class="rslides" id="slider1">
-      <li><img src="images/1.jpg" alt=""></li>
-      <li><img src="images/2.jpg" alt=""></li>
-      <li><img src="images/3.jpg" alt=""></li>
-    </ul>
-
-
-
-    <!-- Slideshow 2 -->
-    <ul class="rslides" id="slider2">
-      <li><a href="#"><img src="images/1.jpg" alt=""></a></li>
-      <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
-      <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
-    </ul>
-
-
-
-    <!-- Slideshow 3 -->
-    <ul class="rslides" id="slider3">
-      <li><img src="images/1.jpg" alt=""></li>
-      <li><img src="images/2.jpg" alt=""></li>
-      <li><img src="images/3.jpg" alt=""></li>
-    </ul>
-
-    <!-- Slideshow 3 Pager -->
-    <ul id="slider3-pager">
-      <li><a href="#"><img src="images/1_thumb.jpg" alt=""></a></li>
-      <li><a href="#"><img src="images/2_thumb.jpg" alt=""></a></li>
-      <li><a href="#"><img src="images/3_thumb.jpg" alt=""></a></li>
-    </ul>
-
-
-
     <!-- Slideshow 4 -->
     <div class="callbacks_container">
       <ul class="rslides" id="slider4">
         <li>
           <img src="images/1.jpg" alt="">
-          <p class="caption">This is a caption</p>
+          <p class="caption animated fadeInUp">This is a caption</p>
         </li>
         <li>
           <img src="images/2.jpg" alt="">

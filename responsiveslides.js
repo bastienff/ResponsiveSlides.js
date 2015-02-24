@@ -102,6 +102,13 @@
               .eq(idx)
               .addClass(visibleClass)
               .css(visible);
+
+
+              //$slide.eq(idx).find('.caption').show();
+              $slide.find('.caption').removeClass('animated fadeInUp');
+              $slide.eq(idx).find('.caption').addClass('animated fadeInUp');
+
+
             index = idx;
             setTimeout(function () {
               settings.after(idx);
